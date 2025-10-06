@@ -184,7 +184,7 @@ const NavigationBar = () => {
                   variant="primary" 
                   className="signup-btn"
                 >
-                  Get Started Free
+                  Get Started Now
                 </Button>
               </div>
             )}
