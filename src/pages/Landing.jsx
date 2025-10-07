@@ -48,25 +48,25 @@ const Landing = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Johnson',
+      name: 'Heeralal',
       role: 'Marketing Director',
       company: 'TechCorp',
       content: 'This platform revolutionized how we find talent. Projects get completed 50% faster!',
-      avatar: 'SJ'
+      avatar: 'H'
     },
     {
-      name: 'Mike Chen',
+      name: 'Mohit Chaudhary',
       role: 'Full Stack Developer',
       company: 'Freelancer',
       content: 'I doubled my income in 3 months. The quality of projects here is outstanding.',
       avatar: 'MC'
     },
     {
-      name: 'Emily Davis',
+      name: 'Rohit Kumaar',
       role: 'Startup Founder',
       company: 'InnovateLab',
       content: 'As a startup, this platform gave us access to world-class talent we could never afford full-time.',
-      avatar: 'ED'
+      avatar: 'RK'
     }
   ];
 
@@ -107,7 +107,7 @@ const Landing = () => {
                   <>
                     <Link to="/auth">
                       <Button className="hero-btn primary">
-                        <span>Get Started Free</span>
+                        <span>Get_Started_Free</span>
                         <div className="btn-background"></div>
                       </Button>
                     </Link>
@@ -140,7 +140,7 @@ const Landing = () => {
                   <span>Secure</span>
                 </div>
                 <div className="stat-item">
-                  <strong>5★</strong>
+                  <strong>4.9★</strong>
                   <span>Rated</span>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const Landing = () => {
                       <span>25+ proposals</span>
                     </div>
                   </div>
-                  <div className="card-budget">$2,500</div>
+                  <div className="card-budget">₹2,500</div>
                 </div>
                 
                 <div className="card card-2">
@@ -167,7 +167,7 @@ const Landing = () => {
                       <span>15+ proposals</span>
                     </div>
                   </div>
-                  <div className="card-budget">$800</div>
+                  <div className="card-budget">₹800</div>
                 </div>
                 
                 <div className="card card-3">
@@ -178,7 +178,7 @@ const Landing = () => {
                       <span>30+ proposals</span>
                     </div>
                   </div>
-                  <div className="card-budget">$1,200</div>
+                  <div className="card-budget">₹1,200</div>
                 </div>
                 
                 <div className="floating-element element-1">💼</div>
@@ -212,7 +212,7 @@ const Landing = () => {
         <Container>
           <Row className="text-center section-header">
             <Col lg={8} className="mx-auto">
-              <h2 className="section-title">Why Choose FreelancePro?</h2>
+              <h2 className="section-title">Why_Choose_Our_FreelancePro?</h2>
               <p className="section-subtitle">
                 Everything you need to succeed in the modern freelance economy
               </p>
@@ -245,7 +245,7 @@ const Landing = () => {
         <Container>
           <Row className="text-center section-header">
             <Col lg={8} className="mx-auto">
-              <h2 className="section-title">What Our Users Say</h2>
+              <h2 className="section-title">Come_To_Our_Users_Review_Section :)</h2>
               <p className="section-subtitle">
                 Don't just take our word for it
               </p>
@@ -282,9 +282,9 @@ const Landing = () => {
         <Container>
           <Row className="text-center">
             <Col lg={8} className="mx-auto">
-              <h2 className="cta-title">Ready to Transform Your Business?</h2>
+              <h2 className="cta-title">Are_You_Ready_to_Transform_Your_Business_From_Our_Platform :)?</h2>
               <p className="cta-subtitle">
-                Join thousands of successful companies and freelancers who are already growing with FreelancePro.
+                Join thousands of successful companies and freelancers who are already growing with Our_FreelancePro.
               </p>
               {!state.user && (
                 <Link to="/auth">
@@ -319,7 +319,7 @@ const Landing = () => {
                 FreelancePro
               </div>
               <p className="footer-text">
-                Connecting talent with opportunity since 2024.
+                Connecting talent with opportunity since 2025.
               </p>
             </Col>
             <Col md={6} className="text-md-end">
